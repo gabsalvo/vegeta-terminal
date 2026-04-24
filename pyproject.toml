@@ -43,9 +43,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/gabrielesalvo/vegeta-terminal"
-Repository = "https://github.com/gabrielesalvo/vegeta-terminal"
-Issues = "https://github.com/gabrielesalvo/vegeta-terminal/issues"
+Homepage = "https://github.com/gabsalvo/vegeta-terminal"
+Repository = "https://github.com/gabsalvo/vegeta-terminal"
+Issues = "https://github.com/gabsalvo/vegeta-terminal/issues"
 
 [project.scripts]
 vegeta = "vegeta_terminal.cli:main"
