@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vegeta-terminal"
+version = "1.0.0"
+description = "Vegeta — your terminal motivator. Animated pixel-art Vegeta greets you, powers up, and drops motivational quotes right in your shell."
+readme = "README.md"
+license = "MIT"
+requires-python = ">= 3.9"
+authors = [
+    { name = "Gabriele Salvo" },
+]
+keywords = [
+    "terminal",
+    "cli",
+    "ascii-art",
+    "pixel-art",
+    "vegeta",
+    "dragon-ball",
+    "motivational",
+    "fun",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Games/Entertainment",
+    "Topic :: Terminals",
+]
+dependencies = [
+    "Pillow >= 9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gabrielesalvo/vegeta-terminal"
+Repository = "https://github.com/gabrielesalvo/vegeta-terminal"
+Issues = "https://github.com/gabrielesalvo/vegeta-terminal/issues"
+
+[project.scripts]
+vegeta = "vegeta_terminal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vegeta_terminal = ["frames/*.png"]
