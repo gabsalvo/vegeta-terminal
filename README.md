@@ -1,3 +1,4 @@
+[![PyPI version](https://badge.fury.io/py/vegeta-terminal.svg)](https://badge.fury.io/py/vegeta-terminal/)
 # 🔥 Vegeta Terminal
 
 > *"Stand up! A prince doesn't kneel before his keyboard!"*

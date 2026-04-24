@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vegeta-terminal"
-version = "1.0.0"
+version = "1.0.1"
 description = "Vegeta — your terminal motivator. Animated pixel-art Vegeta greets you, powers up, and drops motivational quotes right in your shell."
 readme = "README.md"
 license = "MIT"
